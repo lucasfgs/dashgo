@@ -37,8 +37,6 @@ export function Pagination({
         )
       : [];
 
-  console.log(previousPages, nextPages);
-
   return (
     <Stack
       direction={["column", "row"]}
